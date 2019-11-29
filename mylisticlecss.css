@@ -1,0 +1,523 @@
+*{
+	box-sizing:border-box;
+}
+
+body {
+	background-color: gainsboro;
+	color: whitesmoke;
+	font-family: 'Alice', sans-serif;
+
+}
+
+header{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)), url(image/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin-right: auto;
+    margin-left:auto;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+
+}
+
+.leftnav nav{
+    
+	float: left;
+	position: fixed;
+	width: 16.3%;
+	height: 100%;
+}
+
+.backtotop{
+	width: 50px;
+	height: 50px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), 
+    rgba(0, 0, 0, 0.4));
+    border-radius: 50%;
+    position: fixed;
+    margin-left: 160px;
+    margin-top: 280px;
+}
+
+.centeredheader{
+  
+  position: relative;
+  top: 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-size: 55px;
+  font-family: 'Miriam Libre', sans-serif;
+  text-align: center;
+  max-width: 780px;
+  font-weight: bold;
+}
+
+
+
+.skiericons{
+	width: 100px;
+	height: 100px;
+	border:4px solid black;
+	border-radius: 100%;
+	margin: -50px 10px 0px 10px;
+}
+
+.skiericons:hover{
+	border:6px solid white;
+	border-radius: 100%;
+	width: 120px;
+	height: 120px;
+	margin: -70px 0px 0px -0px;
+}
+
+.wrappericons{
+	width:66.6%;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+	margin-left: auto;
+}
+
+.wrapperbody{
+	width: 70%;
+	height: 100%;
+	background-color: gray;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.wrapperbodycontent{
+	width: 90%;
+	height: 100%;
+	background-color: gray;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: justify;
+}
+
+.lastupdated{
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	color: whitesmoke;
+	opacity: 0.5;
+    margin-top:4%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 220px;
+    border-bottom: 3px solid whitesmoke;
+    padding-bottom: 10px;
+}
+
+
+.skiername{
+	margin-top:50px;
+	font-size: 45px;
+}
+
+.skiercontent{
+	font-size: 23px;
+}
+
+.insta{
+	width: 50px;
+	height: 50px;
+	border-radius: 18%;
+}
+
+
+.insta:hover{
+	content: url(instacolor.jpg);
+	width: 50px;
+	height: 50px;
+	border-radius: 18%;
+}
+
+.youtube{
+	width: 50px;
+	height: 50px;
+	border-radius: 18%;
+}
+
+.youtube:hover{
+	content: url(youtubecolor.png);
+	width: 50px;
+	height: 50px;
+	border-radius: 18%;
+}
+
+.follow{
+	width: 400px;
+	margin-top: 50px;
+	position: relative;
+	left: 350px;
+	top: -7px;
+	opacity: 0.5;
+}
+
+
+.logoright{
+     position: relative;
+     left: 700px;
+     top: -40px;
+     width: 120px;
+}
+
+.skimainimg{
+	width: 90%;
+	height: 350px;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 60px;
+}
+
+
+
+footer{
+	background-color: gray;
+	width: 100%;
+	height: auto;
+	
+	text-align: center;
+	padding: 2% 3% 2% 3%;
+	display: flex;
+	justify-content: center;
+	
+}
+
+footer a{
+	text-transform: none;
+	text-decoration: none;
+	background-color: white;
+	color: black;
+}
+
+
+
+.me{
+	position: relative;
+	left: 150px;
+	margin-top:50px;
+	font-size: 45px;
+}
+
+.underlineme{
+	width:50%;
+	border:3px solid gainsboro ;
+	position: relative;
+	top: -20px;
+	right: 283px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+
+
+
+.overlineme{
+	width:70%;
+	border:3px solid gainsboro ;
+	position: relative;
+	bottom:-40px;
+	left: 191px;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+video{
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
+     margin-top: -60px;
+     outline: none;
+}
+
+.video2{
+	display: block;
+	margin-left: 20px;
+	margin-top: 30px;
+	border:3px solid black;
+    box-shadow: -10px 20px 30px black;
+    border-radius: 20px;
+}
+
+.listiclebrand{
+	margin-top: -13px;
+	float: right;
+	width: 65%;
+	font-size: 17px;
+	display: block;
+}
+
+.brandtitle{
+
+	text-align: left;
+	font-size: 20px;
+}
+
+.sovyrnimg{
+	display: flex;
+	flex-direction: column;
+	float: right;
+	margin-top: 40px;
+	justify-content: space-between;
+	justify-content: space-around;
+	padding-left: 2%;
+}
+
+.vishnuimg{
+	display: flex;
+	flex-direction: column;
+	float: right;
+	margin-top: 40px;
+	justify-content: space-between;
+	justify-content: space-around;
+	padding-left: 2%;
+}
+
+.otherclothe{
+	float: left;
+	width: 20%;
+	margin-top: 60px;
+	margin-left: 50px;
+}
+
+
+ .end hr{
+    border:2px dashed whitesmoke;
+    clear:both;
+    display:block;
+    width: 96%;               
+    margin-top: 280px;
+}
+
+
+
+.rightnav nav{
+    float: right;
+	position: relative;
+	width: 14%;
+	height: 100%;
+	
+}
+
+
+.underlineskier{
+	width:20%;
+	border:3px solid gainsboro ;
+	position: relative;
+	top: -20px;
+	right: 423px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+
+}
+
+.overlineskier{
+	width:60%;
+	border:3px solid gainsboro ;
+	position: relative;
+	bottom:-40px;
+	right: 238px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+
+.meiconwrapper{
+	display: flex;
+	justify-content: center;
+
+}
+
+.meicon{
+
+	width: 100px;
+	height: 100px;
+	border:4px solid black;
+	border-radius: 100%;
+	margin: 10px 10px 0px 10px;
+}
+
+.meicon:hover{
+	border:6px solid white;
+	border-radius: 100%;
+	width: 120px;
+	height: 120px;
+	margin: -10px 0px 0px -0px;
+}
+
+
+form{
+	position: relative;
+	background-color: gray;
+}
+input[type=image] {
+  margin-left: 25%;
+  border: 3px solid #555;
+  border-radius: 30px;
+}
+fieldset{
+
+	border: 3px solid #555;
+
+}
+
+
+
+/** FOR IPAD **/
+@media screen and (max-width: 950px) {
+.ipad{
+	position: relative;
+	top: -35px;
+}
+.me{
+	position: static;
+	text-align: center;
+}
+.wrapperbody{
+	width: 80%;
+}
+
+header{
+	border-bottom-right-radius: 11%;
+    border-bottom-left-radius: 11%;
+}
+.overlineskier{
+	display: none;
+
+}
+
+.underlineskier{
+
+	position: static;
+	border-top-right-radius: 0%;
+	border-bottom-right-radius: 0%;
+	width: 100%;
+}
+.logoright{
+	position: static;
+}
+.follow{
+	position: static;
+	margin-bottom: 10px;
+}
+.underlineme{
+	position: static;
+	border-top-right-radius: 0%;
+	border-bottom-right-radius: 0%;
+	margin-top: -20px;
+}
+.overlineme{
+	position: static;
+	margin-bottom: -45px;
+	border-bottom-left-radius: 0%;
+	border-top-left-radius:0%; 
+	margin-top: 50px;
+
+}
+
+.video{
+	width: 80%;
+	height: 400px;
+}
+.listiclebrand{
+	width:100%;
+	float: none;
+}
+.video2{
+	display: block;
+	margin:30px 55px 100px 0px;
+    box-shadow: none;
+    border-radius: 20px;
+    width: auto;
+    height: 400px;
+    float: right;
+}
+.otherclothe{
+	float: left;
+	width: 40%;
+	font-size: 20px;
+	margin-top: 60px;
+	margin-left: 50px;
+}
+p{
+	font-size: 20px;
+}
+.rightnav{
+	display: none;
+}
+.centeredheader{
+	top: 250px;
+}
+
+figure{
+	display: none;
+}
+}
+
+
+
+
+
+
+
+/** FOR IN-BETWEEN IPAD AND PHONES**/
+@media screen and (max-width: 700px) {
+	.skiername{
+		font-size: 30px;
+	}
+
+	.skiericons{
+	width: 70px;
+	height: 70px;
+	border:4px solid black;
+	border-radius: 100%;
+	margin: -50px 10px 0px 10px;
+}
+
+.skiericons:hover{
+	border:6px solid white;
+	border-radius: 100%;
+	width: 90px;
+	height: 90px;
+	margin: -70px 0px 0px -0px;
+}
+
+.wrappericons{
+	width:66.6%;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+.video2{
+	display: block;
+	margin:30px 55px 100px 0px;
+    box-shadow: none;
+    border-radius: 20px;
+    width: auto;
+    height: 300px;
+    float: right;
+}
+
+
+}
+
+/** FOR PHONES **/
+@media only screen and (max-width: 600px) {
+	.backtotop{
+		display: none;
+	}
+
+
+}
